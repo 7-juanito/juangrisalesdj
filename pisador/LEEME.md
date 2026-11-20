@@ -1,6 +1,6 @@
 # Pisador de freseo — Juan Grisales y Alek Coronado
 
-Genera `pisador_freseo.mp3` con la voz **es-CO-GonzaloNeural**, tono grave,
+Genera `pisador_freseo.mp3` con voz de mujer **es-CO-SalomeNeural** (lenta y sensual; la de hombre es **es-CO-GonzaloNeural**),
 volumen alto, eco de 3 repeticiones y volumen normalizado.
 
 ## Instalación en Windows

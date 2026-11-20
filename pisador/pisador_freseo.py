@@ -17,10 +17,10 @@ from pydub.effects import normalize
 
 # ---------------- Configuracion ----------------
 TEXTO = "¡Estás al mando de Juan Grisales y Alek Coronado!"
-VOZ = "es-CO-GonzaloNeural"
-TONO = "-15Hz"        # negativo = mas grave
+VOZ = "es-CO-SalomeNeural"   # mujer. Hombre: "es-CO-GonzaloNeural"
+TONO = "-8Hz"         # un poco grave = voz mas sensual
 VOLUMEN = "+50%"      # volumen alto
-VELOCIDAD = "-5%"     # un poco mas pausado para que pegue
+VELOCIDAD = "-12%"    # lento y seductor
 
 ECO_REPETICIONES = 3
 ECO_RETARDO_MS = 200  # separacion entre cada repeticion
