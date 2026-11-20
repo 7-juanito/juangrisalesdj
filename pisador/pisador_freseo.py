@@ -16,11 +16,11 @@ from pydub import AudioSegment
 from pydub.effects import normalize
 
 # ---------------- Configuracion ----------------
-TEXTO = "¡Estás al mando de Juan Grisales y Alek Coronado!"
-VOZ = "es-CO-SalomeNeural"   # mujer. Hombre: "es-CO-GonzaloNeural"
-TONO = "-8Hz"         # un poco grave = voz mas sensual
+TEXTO = "¡Estás al mando de... Juan Grisales y Alek Coronado!"  # los "..." meten una pausa natural
+VOZ = "es-CO-SalomeNeural"   # mujer. Otras mas humanas: "en-US-AvaMultilingualNeural", "en-US-EmmaMultilingualNeural". Hombre: "es-CO-GonzaloNeural"
+TONO = "+0Hz"         # tono natural (cambiarlo la hace sonar robotica)
 VOLUMEN = "+50%"      # volumen alto
-VELOCIDAD = "-12%"    # lento y seductor
+VELOCIDAD = "+0%"     # velocidad natural
 
 ECO_REPETICIONES = 3
 ECO_RETARDO_MS = 200  # separacion entre cada repeticion
