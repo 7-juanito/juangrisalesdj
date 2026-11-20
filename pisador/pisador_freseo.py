@@ -16,15 +16,15 @@ from pydub import AudioSegment
 from pydub.effects import normalize
 
 # ---------------- Configuracion ----------------
-TEXTO = "¡Estás al mando de DJ Juan Grisales y Alek Coronado!"
+TEXTO = "¡Estás al mando de Juan Grisales y Alek Coronado!"
 VOZ = "es-CO-GonzaloNeural"
 TONO = "-15Hz"        # negativo = mas grave
 VOLUMEN = "+50%"      # volumen alto
 VELOCIDAD = "-5%"     # un poco mas pausado para que pegue
 
 ECO_REPETICIONES = 3
-ECO_RETARDO_MS = 250  # separacion entre cada repeticion
-ECO_ATENUACION_DB = 6 # cada repeticion baja estos dB
+ECO_RETARDO_MS = 200  # separacion entre cada repeticion
+ECO_ATENUACION_DB = 12# cada repeticion baja estos dB
 
 ARCHIVO_TEMP = "voz_temp.mp3"
 ARCHIVO_SALIDA = "pisador_freseo.mp3"

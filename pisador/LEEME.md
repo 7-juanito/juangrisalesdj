@@ -1,4 +1,4 @@
-# Pisador de freseo — DJ Juan Grisales y Alek Coronado
+# Pisador de freseo — Juan Grisales y Alek Coronado
 
 Genera `pisador_freseo.mp3` con la voz **es-CO-GonzaloNeural**, tono grave,
 volumen alto, eco de 3 repeticiones y volumen normalizado.
