@@ -45,3 +45,13 @@ Arriba del script puedes cambiar:
 - `TONO` — más grave: `-20Hz`, `-25Hz`…
 - `VOLUMEN` — hasta `+100%`.
 - `ECO_RETARDO_MS` / `ECO_ATENUACION_DB` — separación y caída del eco.
+
+## Versión profesional desde una nota de voz
+
+```
+python procesar_nota_pro.py nota.m4a          # solo voz procesada
+python procesar_nota_pro.py nota.m4a --fx     # con subida (riser) e impacto grave
+```
+Cadena: filtro de graves, reducción de ruido, recorte de silencios, EQ (menos barro,
+más presencia y brillo), de-esser, compresión, eco estéreo ping-pong + reverb corta,
+limitador y loudness a -11 LUFS / pico -1.5 dBFS.
