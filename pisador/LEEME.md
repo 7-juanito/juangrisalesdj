@@ -55,3 +55,14 @@ python procesar_nota_pro.py nota.m4a --fx     # con subida (riser) e impacto gra
 Cadena: filtro de graves, reducción de ruido, recorte de silencios, EQ (menos barro,
 más presencia y brillo), de-esser, compresión, eco estéreo ping-pong + reverb corta,
 limitador y loudness a -11 LUFS / pico -1.5 dBFS.
+
+## Versión con producción completa (v2)
+
+```
+pip install numpy
+python pisador_pro_fx.py nota.m4a
+```
+Capas: subida con filtro que se abre, reverb al revés entrando a la voz, impacto sub,
+voz doblada en estéreo con saturación suave, reverb de sala, eco que rebota en la
+última palabra (filtrado tipo radio) y barrido de bajada al final. Los ajustes
+(volumen del impacto, cantidad de reverb, repeticiones del eco...) están arriba del script.
